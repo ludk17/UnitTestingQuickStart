@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingQuickStart", "UnitTestingQuickStart\UnitTestingQuickStart.csproj", "{E3D76505-B988-4FF6-B76B-043701056775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestingQuickStart.Tests", "UnitTestingQuickStart.Tests\UnitTestingQuickStart.Tests.csproj", "{3CD6E0A1-BB91-4792-9700-143AFBDEEF9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3D76505-B988-4FF6-B76B-043701056775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3D76505-B988-4FF6-B76B-043701056775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3D76505-B988-4FF6-B76B-043701056775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3D76505-B988-4FF6-B76B-043701056775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3CD6E0A1-BB91-4792-9700-143AFBDEEF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CD6E0A1-BB91-4792-9700-143AFBDEEF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CD6E0A1-BB91-4792-9700-143AFBDEEF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CD6E0A1-BB91-4792-9700-143AFBDEEF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
