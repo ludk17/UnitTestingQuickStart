@@ -23,7 +23,7 @@ public class CuentaAhorros
     {
         if (moneda == "USD")
         {
-            monto = ExchangeService.GetAmount(monto, "USD", "PEN"); //3.86
+            monto = monto * ExchangeService.GetCurrent("USD", "PEN"); //3.86
         }
         this.Monto -= monto;
     }

@@ -5,15 +5,7 @@ namespace UnitTestingQuickStart;
 public interface IExchangeService
 {
     // definiciones
-    decimal GetAmount(decimal amount, string from, string to);
-}
-
-public class ExchangeServiceFake : IExchangeService
-{
-    public decimal GetAmount(decimal amount, string @from, string to)
-    {
-        return 3.86m * amount;
-    }
+    decimal GetCurrent(string from, string to);
 }
 
 public class ExchangeService: IExchangeService
@@ -25,7 +17,12 @@ public class ExchangeService: IExchangeService
 
     // implementación del metodo
 
-    public decimal GetAmount(decimal amount, string from, string to)
+    public decimal GetCurrent(string @from, string to)
+    {
+        return GetAmount(1, from, to);
+    }
+
+    private decimal GetAmount(decimal amount, string from, string to)
     {
         var URL = "https://api.apilayer.com/exchangerates_data/convert";
         var urlParameters = $"?to={to}&from={from}&amount={amount}";
